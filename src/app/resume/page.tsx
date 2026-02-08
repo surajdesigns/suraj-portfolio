@@ -6,14 +6,14 @@ import { ArrowLeft, Download, Mail, Phone, MapPin, Linkedin, Printer } from "luc
 
 export default function ResumePage() {
   const handlePrint = () => {
-      window.open("/resume/suraj_kumar.pdf", "_blank");
+      window.open("/suraj_kumar.pdf", "_blank");
   };
 
   return (
     <div className="min-h-screen pt-24 pb-20 px-6">
       <div className="max-w-4xl mx-auto">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 20 }} 
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           className="no-print mb-8"
@@ -40,7 +40,7 @@ export default function ResumePage() {
                 Print
               </button>
               <a
-                href="/resume/suraj_kumar.pdf"
+                href="/suraj_kumar.pdf"
                 download
                 className="btn-primary flex items-center gap-2 text-sm"
               >
