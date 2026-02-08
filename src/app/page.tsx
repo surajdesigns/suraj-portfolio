@@ -228,8 +228,8 @@ export default function HomePage() {
                 and social media strategy using Adobe Creative Suite, Figma, and SEO tools.
               </p>
 
-              <div className="flex flex-wrap gap-4">
-                <a href="/resume/suraj_kumar.pdf" download className="btn-primary flex items-center gap-2">
+              <div className="flex flex-wrap gap-4">  
+                <a href="/suraj_kumar.pdf" download className="btn-primary flex items-center gap-2">
                   <Download size={18} />
                   Download Resume
                 </a>
