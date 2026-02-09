@@ -49,7 +49,7 @@ export function Navigation() {
 
           <div className="hidden md:flex items-center gap-4">
             <a
-              href="/resume/suraj_kumar.pdf"
+              href="/suraj_kumar.pdf"
               download
               className="btn-primary flex items-center gap-2 text-sm"
             >
@@ -90,7 +90,7 @@ export function Navigation() {
                 </Link>
               ))}
               <a
-                href="/resume/suraj_kumar.pdf"
+                href="/suraj_kumar.pdf"
                 download
                 className="btn-primary flex items-center justify-center gap-2 text-sm mt-2"
               >
@@ -104,3 +104,4 @@ export function Navigation() {
     </motion.header>
   );
 }
+
